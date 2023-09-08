@@ -17,3 +17,12 @@ document.title="LEARNING THE DOM ";
 //console.log(document.all[10]);
 
 document.all[10].textContent="Making lot of list items"
+
+//GETELEMENTBYID
+
+// console.log(document.getElementById("header-title"))
+
+var headertitle=document.getElementById("header-title")
+console.log(headertitle)
+
+headertitle.textContent="FOOD LIST ITEMS"
