@@ -23,6 +23,10 @@ document.all[10].textContent="Making lot of list items"
 // console.log(document.getElementById("header-title"))
 
 var headertitle=document.getElementById("header-title")
-console.log(headertitle)
-
 headertitle.textContent="FOOD LIST ITEMS"
+headertitle.style.borderBlock="solid"
+
+// changing main header borderBottom
+
+var mainheader=document.getElementById("main-header")
+mainheader.style.borderBottom="solid 3px #000"
