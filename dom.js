@@ -55,3 +55,22 @@ for (var i=0; i<items.length; i++)
 items[2].style.backgroundColor='green';
 
 
+
+
+
+
+// SHARPENER 5th GET ELEMENTS BY TAGNAME TASK :
+
+// GET 5th ELEMENT BY CLASSNAME:  
+
+var lastele=document.getElementsByClassName("5-item");
+lastele[0].textContent="ENTER 5TH ELEMENT ";
+
+// GET 5TH ELEMENT BY TAGNAME :
+
+var liele=document.getElementsByTagName("li");
+liele[4].style.backgroundColor="purple";
+liele[4].style.fontWeight='bold';
+
+//SHARPENER 5TH TASK END 
+
