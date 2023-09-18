@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STORE USERS </title>
+</head>
+<body>
+
+    <H1>LET STORE THE USERS IN THE RIGHT FORMAT </H1>
+
+</body>
+     
+<script type="text/javascript">
+    
+
+    let myobj={
+
+        name:"akshxar",
+        age: 23 
+
+    };
+//SERIALIZED :
+
+    let myobj_serialized=JSON.stringify(myobj);   
+    localStorage.setItem("myobj",myobj_serialized);
+    console.log(localStorage)
+
+//DESIRALIZED:
+  
+   var getstorage=localStorage.getItem("my_obj");
+   let myobj_deserialized=JSON.parse(getstorage);
+   console.log(myobj_deserialized)
+
+
+
+
+</script>
+
+
+
+
+</html>
